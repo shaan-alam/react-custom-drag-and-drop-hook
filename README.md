@@ -3,5 +3,5 @@
 This Github repo is for the **"How to create a Custom Drag & Drop Hook in React! 🔥"** article I wrote on Hashnode and Dev.
 
 Article links - 
-* Hashnode - [How to create a Custom Drag & Drop Hook in React! 🔥](http://google.com)
-* Dev - [How to create a Custom Drag & Drop Hook in React! 🔥]()
+* Hashnode - [How to create a Custom Drag & Drop Hook in React! 🔥](https://shaanalam.hashnode.dev/how-to-create-a-custom-drag-and-drop-hook-in-react)
+* Dev - [How to create a Custom Drag & Drop Hook in React! 🔥](https://dev.to/shaan71845/how-to-create-a-custom-drag-drop-hook-in-react-nme)
