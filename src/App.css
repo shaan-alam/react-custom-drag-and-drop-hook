@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html,
+body {
+  background: #0267c1;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  background: #fff;
+  padding: 3em 5em;
+  border-radius: 0.5em;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  display: none;
+}
+
+label {
+  width: 400px;
+  border: 3px #efa00b dashed;
+  padding: 3em 1.78em;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+label h1 {
+  font-size: 130%;
+  text-align: center;
+  color: #efa00b;
+}
+
+.file-drop-error {
+  width: 100%;
+  text-align: center;
+  color: red;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.file-properties {
+  margin-top: 1em;
+}
+
+.file-properties ul {
+  list-style: none;
+  text-align: center;
 }
